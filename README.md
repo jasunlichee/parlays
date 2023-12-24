@@ -15,3 +15,18 @@ things to consider:
 
 api: https://github.com/swar/nba_api
 call pip install nba_api
+
+
+first steps:
+1. get training data using nba_api
+2. train ML algorithm
+3. obtain ML model
+4. run new data through model
+5. obtain predictions
+
+data format:
+player_id | avg l10 games | avg l5 games | opp team ort | opp team drt |opp playerids | pt trend | b2b? | curr team ort | curr team drt | starting y/n 
+ex. Nikola Jokić
+203999    | 
+
+
