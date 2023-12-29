@@ -29,4 +29,6 @@ player_id | avg l10 games | avg l5 games | opp team ort | opp team drt |opp play
 ex. Nikola Jokić
 203999    | 
 
-
+endpoints to use:
+- nba_api/stats/endpoints/playergamelog.py
+- 
