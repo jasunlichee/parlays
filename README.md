@@ -25,10 +25,29 @@ first steps:
 5. obtain predictions
 
 data format:
-player_id | avg l10 games | avg l5 games | opp team ort | opp team drt |opp playerids | pt trend | b2b? | curr team ort | curr team drt | starting y/n 
-ex. Nikola Jokić
-203999    | 
+player_id | avg l10 games | avg l5 games | avg l10 VS OPP | avg l5 VS OPP | curr team ORt | opp team DRt | Minutes Avg | Season Avg | Days between last game | Player Age | starting Y/N | Home/Away
+
 
 endpoints to use:
 - nba_api/stats/endpoints/playergamelog.py
-- 
+- DefenseHubStat4 defense_hub_stat4
+
+iterate through all the years that the player played
+append all of their stats into one table
+
+
+- player_id - input
+- game_id - input
+
+- avg l10 games - playercareerstats 
+- avg l5 games - playercareerstats 
+- avg l10 VS OPP - playercareerstats
+- avg l5 VS OPP - playercareerstats
+- curr team ORt - 
+- opp team DRt
+- Minutes Avg
+- Season Avg
+- Days between last game
+- Player Age
+- starting Y/N
+- Home/Away
